@@ -8,6 +8,7 @@ public class ArrayListDemo {
 		//ArrayList of Strings
 		ArrayList<String> names = new ArrayList<String>();
 		
+		
 		names.add("Jan");
 		names.add("Sara");
 		names.add("Fred");
@@ -17,6 +18,7 @@ public class ArrayListDemo {
 		//iterating through list with standard for-loop
 		for(int i = 0; i < names.size(); i++){
 			String s = names.get(i);
+
 			System.out.println("String at element " + i + " " + s);
 		}
 		System.out.println("\n");
@@ -49,5 +51,9 @@ public class ArrayListDemo {
 			System.out.println(j);
 		}
 		System.out.println("\n");
+		
+		
 	}
+	
+	
 }

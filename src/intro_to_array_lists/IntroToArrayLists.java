@@ -23,10 +23,22 @@ public class IntroToArrayLists {
 		}
 		//5. Print only the even numbered elements in the list.
 		for(int a = 0; a < string.size(); a++) {
-			
+			if(a % 2 != 0) {
+				System.out.println(string.get(a));
+			}
 		}
 		//6. Print all the Strings in reverse order.
-		
+		for(int a = 10; a > string.size(); a--) {
+			System.out.println(string.get(a - 6));
+		}
 		//7. Print only the Strings that have the letter 'e' in them.
+		for(int c = 0; c < string.size(); c++) {
+			if(string.contains("e")) {
+				System.out.println(string.get(c));
+			}
+			else {
+				System.out.println(" ");
+			}
+		}
 	}
 }
